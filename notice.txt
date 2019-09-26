@@ -1,0 +1,36 @@
+团队合作开发工具
+svn 版本管理工具，集中式版本管理工具
+git 分布式版本管理工具
+
+git配制
+
+
+git本地与github关联
+
+
+本地操作
+add . 将所有的新增文件或修改后的文件从工作空间添加到本地git的缓存 区
+commit -m "日志:对修改内容的注释说明";
+上传到远程仓库github
+git push -u master(分支：主分支);
+
+//项目与github仓库关联
+
+
+
+git status 查看工作区和缓存区状态
+git checkout -- <file>将工作区的文件撤消
+git add .工作区的所有文件添加到缓存区
+git add 文件名将单个文件添加到缓存区
+git reset HEAD 文件名:将缓存区的文件撤销到工作区。
+git commit -m"日志":将缓存 区的文件提交到版本区。
+git reset --hard (前六位哈希值)回滚到之前提交的版本
+
+分支操作
+master分支，主分支，所有的功能都在这里上传到远程
+
+
+
+
+
+
